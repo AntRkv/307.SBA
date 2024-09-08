@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/searchCss.css" />
+  </head>
+
+  <body>
+    <header>
+      <a class="homeBtn" href="./index.html">
+        <img src="./img/Google-Home-Emblem.png" alt="home" height="35px" />
+      </a>
+    </header>
+
+    <div class="content">
+      <form
+        class="d-flex"
+        action="https://www.google.com/search"
+        method="get"
+        role="search"
+      >
+        <input
+          class="form-control me-2"
+          type="search"
+          name="q"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </body>
+</html>

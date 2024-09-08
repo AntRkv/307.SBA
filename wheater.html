@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/weatherCss.css" />
+
+    <!-- in-block CSS -->
+    <style>
+      .city {
+        color: #db4437;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <a class="homeBtn" href="./index.html">
+        <img src="./img/Google-Home-Emblem.png" alt="home" height="35px" />
+      </a>
+    </header>
+
+    <div class="main-cont">
+      <div class="images">
+        <div
+          class="image-parlax"
+          ontouchstart="this.classList.toggle('hover');"
+        >
+          <div class="image-container">
+            <div
+              class="front-side"
+              style="background-image: url(/img/clear-sky.png)"
+            >
+              <div class="inner">
+                <p class="city">New York</p>
+
+                <!-- in Line CSS -->
+                <span style="color: #db4437; font-size: 25px">75F</span>
+              </div>
+            </div>
+            <div class="back-side">
+              <div class="inner">
+                <p>
+                  Expect mostly cloudy skies throughout the day with occasional
+                  brief glimpses of sunshine.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="image-parlax"
+          ontouchstart="this.classList.toggle('hover');"
+        >
+          <div class="image-container">
+            <div
+              class="front-side"
+              style="background-image: url(./img/lighting.png)"
+            >
+              <div class="inner">
+                <p class="city">Miami</p>
+                <span style="color: #db4437; font-size: 25px">85F</span>
+              </div>
+            </div>
+            <div class="back-side">
+              <div class="inner">
+                <p>
+                  Scattered thunderstorms are expected, bringing frequent
+                  lightning, gusty winds, and brief heavy downpours.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="image-parlax"
+          ontouchstart="this.classList.toggle('hover');"
+        >
+          <div class="image-container">
+            <div
+              class="front-side"
+              style="background-image: url(/img/sunny.png)"
+            >
+              <div class="inner">
+                <p class="city">Boston</p>
+                <span style="color: #db4437; font-size: 25px">70F</span>
+              </div>
+            </div>
+            <div class="back-side">
+              <div class="inner">
+                <p>
+                  Expect clear skies with plenty of sunshine throughout the day,
+                  bringing warm and pleasant weather conditions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="image-parlax"
+          ontouchstart="this.classList.toggle('hover');"
+        >
+          <div class="image-container">
+            <div
+              class="front-side"
+              style="background-image: url(/img/downpour.png)"
+            >
+              <div class="inner">
+                <p class="city">Seatle</p>
+                <span style="color: #db4437; font-size: 25px">67F</span>
+              </div>
+            </div>
+            <div class="back-side">
+              <div class="inner">
+                <p>
+                  Heavy downpours are expected throughout the day, accompanied
+                  by gusty winds and a risk of localized flooding.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="image-parlax"
+          ontouchstart="this.classList.toggle('hover');"
+        >
+          <div class="image-container">
+            <div
+              class="front-side"
+              style="background-image: url(./img/rainy.png)"
+            >
+              <div class="inner">
+                <p class="city">Atlanta</p>
+                <span style="color: #db4437; font-size: 25px">72F</span>
+              </div>
+            </div>
+            <div class="back-side">
+              <div class="inner">
+                <p>
+                  Expect steady rain throughout the day, with occasional heavy
+                  showers and cool, damp conditions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
